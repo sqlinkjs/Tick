@@ -1,0 +1,8 @@
+.primaryButton{
+    background-color: var(--primary);
+    color: white;
+}
+.secondaryButton{
+    background-color: var(--secondary);
+    color: black
+}

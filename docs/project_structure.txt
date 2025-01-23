@@ -1,0 +1,36 @@
+Tick is a simple, self hosted ticket management platform who can management their projects by task, it is built using 'sqlink' to handle the backend operations.
+Find more about sqlink here: sqlinkjs.github.io
+
+
+database_name = tick_app
+
+Tables necessary for Tick
+
+1. users 
+2. projects
+3. tasks
+    tasks can be categorized as 
+    a. issues
+    b. story
+    c. sub task
+4. workflows
+5. sprints
+    
+Tables in detail
+
+1. users
+   This  table has basic details for the user like, email, username, profile picture etc.
+   tasks or any stories for a particular user will be linked to the user_id
+
+   columns
+   userId
+   username
+   email
+   role
+   createdAt
+   updatedAt
+   
+
+2. projects
+   
+
